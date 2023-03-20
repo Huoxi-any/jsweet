@@ -50,7 +50,7 @@
 			<url>https://repository.jsweet.org/artifactory/libs-release-local</url>
 		</repository>
 		<repository>
-			<snapshots />
+			<snapshots/>
 			<id>jsweet-snapshots</id>
 			<name>libs-snapshot</name>
 			<url>https://repository.jsweet.org/artifactory/libs-snapshot-local</url>
@@ -203,7 +203,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-text</artifactId>
-			<version>1.3</version>
+			<version>1.10.0</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-io</groupId>
