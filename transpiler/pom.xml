@@ -50,7 +50,7 @@
 			<url>https://repository.jsweet.org/artifactory/libs-release-local</url>
 		</repository>
 		<repository>
-			<snapshots />
+			<snapshots/>
 			<id>jsweet-snapshots</id>
 			<name>libs-snapshot</name>
 			<url>https://repository.jsweet.org/artifactory/libs-snapshot-local</url>
@@ -242,7 +242,7 @@
 		<dependency>
 			<groupId>ant</groupId>
 			<artifactId>ant</artifactId>
-			<version>1.6.5</version>
+			<version>1.7.0</version>
 			<scope>provided</scope>
 		</dependency>
 
