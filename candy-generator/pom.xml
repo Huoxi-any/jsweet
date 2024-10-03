@@ -24,7 +24,7 @@
 			<url>http://repository.jsweet.org/artifactory/libs-release-local</url>
 		</repository>
 		<repository>
-			<snapshots />
+			<snapshots/>
 			<id>jsweet-snapshots</id>
 			<name>libs-snapshot</name>
 			<url>http://repository.jsweet.org/artifactory/libs-snapshot-local</url>
@@ -140,7 +140,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore></ignore>
+										<ignore/>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
@@ -163,10 +163,10 @@
 								<phase>generate-sources</phase>
 								<configuration>
 									<target>
-										<property name="compile_classpath" refid="maven.compile.classpath" />
-										<property name="outputDir" value="${project.build.outputDirectory}" />
-										<property name="sourceDir" value="${project.build.sourceDirectory}" />
-										<ant antfile="${basedir}/build.xml" target="gen-parser" />
+										<property name="compile_classpath" refid="maven.compile.classpath"/>
+										<property name="outputDir" value="${project.build.outputDirectory}"/>
+										<property name="sourceDir" value="${project.build.sourceDirectory}"/>
+										<ant antfile="${basedir}/build.xml" target="gen-parser"/>
 									</target>
 								</configuration>
 								<goals>
@@ -215,7 +215,7 @@
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
-			<version>2.7</version>
+			<version>2.14.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jsoup</groupId>
